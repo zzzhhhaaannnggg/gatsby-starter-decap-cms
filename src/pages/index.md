@@ -1,21 +1,13 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: 谛听系列地震领域技术及产品服务解决方案
+image: /img/首页.jpg
+heading: 谛听系列地震领域技术及产品服务解决方案
+subheading: 欢迎加入谛听技术联盟共享AI时代的科技成果!
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  title: 谛听
+  description: 地球所围绕“大震之问”核心需求，基于研究所的科技创新成果，以谛听地震大模型技术为起点，进一步研发了灵石推理机、洛书知识库、河图可视化、萨德产品集、震见回溯器，总结为“谛听技术魔方”行业解决方案，为深化局所合作和赋能合作伙伴提供高质量科技产品服务。
+description: 在技术能力维度，谛听与萨德联袂出击，为专业的地震数据处理构筑起坚实的底层引擎，以卓越的性能驱动数据的高效处理与精准分析;在管理助力维度，洛书与河图默契协作，为业务规划提供强大助力，打造出友好直观的交互接口;在业务支撑维度，震见与灵石各展神通，深度探寻地震前兆的微妙迹象，实现前震的精准识别，探索基于指标体系的概率地震预报。“谛听技术魔方”矢志不渝打造技术领先管理高效，业务更强的行业解决方案。
 intro:
   blurbs:
     - image: /img/coffee.png
