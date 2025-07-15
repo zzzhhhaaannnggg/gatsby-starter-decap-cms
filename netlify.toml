@@ -2,9 +2,7 @@
   publish = "public"
   command = "npm run build"
 [build.environment]
-  NODE_VERSION = "20.19.3"
+  NODE_VERSION = "22.17.0"
   YARN_VERSION = "1.22.4"
   YARN_FLAGS = "--no-ignore-optional"
-[build.environment]
-  AWS_LAMBDA_JS_RUNTIME = "nodejs20.x"
 
