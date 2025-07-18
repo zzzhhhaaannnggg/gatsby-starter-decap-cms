@@ -44,7 +44,7 @@ const Footer = () => {
                         Form Examples
                       </Link>
                     </li> */}
-                    {/* <li>
+                    <li>
                       <a
                         className="navbar-item"
                         href="/admin/"
@@ -53,7 +53,7 @@ const Footer = () => {
                       >
                         Admin
                       </a>
-                    </li> */}
+                    </li>
                   </ul>
                 </section>
               </div>
