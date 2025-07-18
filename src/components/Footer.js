@@ -39,12 +39,12 @@ const Footer = () => {
                         Products
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link className="navbar-item" to="/contact/examples">
                         Form Examples
                       </Link>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <a
                         className="navbar-item"
                         href="/admin/"
@@ -53,7 +53,7 @@ const Footer = () => {
                       >
                         Admin
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </section>
               </div>
@@ -73,7 +73,7 @@ const Footer = () => {
                   </ul>
                 </section>
               </div>
-              <div className="column is-4 social">
+              {/* <div className="column is-4 social">
                 <a title="facebook" href="https://facebook.com">
                   <img
                     src={facebook}
@@ -103,7 +103,7 @@ const Footer = () => {
                     style={{ width: "1em", height: "1em" }}
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
