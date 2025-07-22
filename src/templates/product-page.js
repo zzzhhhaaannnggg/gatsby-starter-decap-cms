@@ -5,7 +5,7 @@ import { getImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 import Testimonials from "../components/Testimonials";
-import Pricing from "../components/Pricing";
+// import Pricing from "../components/Pricing";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import FullWidthImage from "../components/FullWidthImage";
 
@@ -18,8 +18,8 @@ export const ProductPageTemplate = ({
   intro,
   main,
   testimonials,
-  fullImage,
-  pricing,
+  fullImage
+  // pricing,
 }) => {
   const heroImage = getImage(image) || image;
   const fullWidthImage = getImage(fullImage) || fullImage;
@@ -77,7 +77,7 @@ export const ProductPageTemplate = ({
         </div>
       </section>
       <FullWidthImage img={fullWidthImage} imgPosition={"bottom"} />
-      <section className="section section--gradient">
+      {/* <section className="section section--gradient">
         <div className="container">
           <div className="section">
             <div className="columns">
@@ -91,7 +91,7 @@ export const ProductPageTemplate = ({
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
@@ -112,12 +112,12 @@ ProductPageTemplate.propTypes = {
     image3: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   }),
   testimonials: PropTypes.array,
-  fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  pricing: PropTypes.shape({
-    heading: PropTypes.string,
-    description: PropTypes.string,
-    plans: PropTypes.array,
-  }),
+  fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
+  // pricing: PropTypes.shape({
+  //   heading: PropTypes.string,
+  //   description: PropTypes.string,
+  //   plans: PropTypes.array,
+  // }),
 };
 
 const ProductPage = ({ data }) => {
@@ -134,7 +134,7 @@ const ProductPage = ({ data }) => {
         main={frontmatter.main}
         testimonials={frontmatter.testimonials}
         fullImage={frontmatter.full_image}
-        pricing={frontmatter.pricing}
+        // pricing={frontmatter.pricing}
       />
     </Layout>
   );
@@ -212,16 +212,16 @@ export const productPageQuery = graphql`
             gatsbyImageData(quality: 100, layout: FULL_WIDTH)
           }
         }
-        pricing {
-          heading
-          description
-          plans {
-            description
-            items
-            plan
-            price
-          }
-        }
+        #pricing {
+        #  heading
+        #  description
+        #  plans {
+        #    description
+        #    items
+        #    plan
+        #    price
+        #  }
+        #}
       }
     }
   }
