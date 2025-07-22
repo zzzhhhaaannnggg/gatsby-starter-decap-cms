@@ -40,30 +40,30 @@ const Navbar = () => {
              */}
           <li className="navbar-item" style={{ padding: "0px" }}>
             <Link className="navbar-item" to="/about">
-              About
+              关于我们
             </Link>
           </li>
           <li className="navbar-item" style={{ padding: "0px" }}>
             <Link className="navbar-item" to="/products">
-              Products
+              谛听产品
             </Link>
           </li>
           <li className="navbar-item" style={{ padding: "0px" }}>
             <Link className="navbar-item" to="/blog">
-              Blog
+              谛听视讯
             </Link>
           </li>
           <li className="navbar-item" style={{ padding: "0px" }}>
             <Link className="navbar-item" to="/contact">
-              Contact
+              联系我们
             </Link>
           </li>
-          <li className="navbar-item" style={{ padding: "0px" }}>
+          {/* <li className="navbar-item" style={{ padding: "0px" }}>
             <Link className="navbar-item" to="/contact/examples">
               Form Examples
             </Link>
-          </li>
-          <li className="navbar-end has-text-centered">
+          </li> */}
+          {/* <li className="navbar-end has-text-centered">
             <a
               className="navbar-item"
               href="https://github.com/decaporg/gatsby-plugin-decap-cms"
@@ -74,7 +74,7 @@ const Navbar = () => {
                 <img src={github} alt="Github" />
               </span>
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>
