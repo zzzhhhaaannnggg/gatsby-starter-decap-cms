@@ -1,15 +1,15 @@
 ---
 templateKey: blog-post
-title: 谛听系列
+title: 谛听魔方
 date: 2025-06-01T15:04:10.000Z
 description: 地球所围绕“大震之问”核心需求，基于研究所的科技创新成果，以谛听地震大模型技术为起点，进一步研发了灵石推理机、洛书知识库、河图可视化、萨德产品集、震见回溯器，总结为“谛听技术魔方”行业解决方案
 featuredpost: false
-featuredimage: /img/flavor_wheel.jpg
+featuredimage: /img/魔方.png
 tags:
   - 大模型
   - 技术体系
 ---
-![flavor wheel](/img/flavor_wheel.jpg)
+![flavor wheel](/img/魔方.png)
 
 
 

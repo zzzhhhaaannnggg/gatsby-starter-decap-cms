@@ -1,19 +1,16 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
+title: “DiTing4eqs”——谛听技术生态建设指定平台
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### 一、目标与使命
+中国地震局地球物理研究所围绕“大震之问”核心需求，基于研究所的科技创新成果，以谛听“DiTing”地震大模型技术为起点，进一步研发了灵石推理机、洛书知识库、河图可视化、萨德产品集、震见回溯器，总结为“谛听技术魔方”行业解决方案，致力于拓展和完善谛听技术生态，为合作伙伴提供高质量地震科技产品服务。
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+### 二、产品与服务
+“谛听技术魔方”矢志不渝打造技术领先，管理高效，业务更强的行业解决方案。
+技术能力维度：谛听与萨德联袂出击，为专业的地震数据处理构筑起坚实的底层引擎，以卓越的性能驱动数据的高效处理与精准分析。
+管理助力维度：洛书与河图默契协作，为业务规划提供强大助力，打造出友好直观的交互接口。
+业务支撑维度：震见与灵石各展神通，深度探寻地震前兆的微妙迹象，实现前震的精准识别，探索基于指标体系的概率地震预报。
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
-
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
-
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+### 三、平台声明
+本网站（http://www.diting4eqs.cn）为谛听技术生态建设的唯一指定平台，所有涉及谛听技术的标准规范、产品迭代、服务资讯及行业动态，均以本平台为准。
