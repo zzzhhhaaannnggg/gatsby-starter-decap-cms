@@ -73,6 +73,43 @@ const Footer = () => {
                   </ul>
                 </section>
               </div>
+
+              <div className="column is-4">
+                <section>
+                  <ul className="menu-list">
+                      <li>
+                        <a
+                          className="navbar-item"
+                          href="https://www.cea-igp.ac.cn/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          中国地震局地球物理研究所
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="navbar-item"
+                          href="http://124.17.4.220:24081"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          EarthStack
+                        </a>
+                      </li>
+                      {/* <li>
+                        <a
+                          className="navbar-item"
+                          href="http://124.17.4.220:24081"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          EarthStack
+                        </a>
+                      </li> */}
+                  </ul>
+                </section>
+              </div>
               {/* <div className="column is-4 social">
                 <a title="facebook" href="https://facebook.com">
                   <img
