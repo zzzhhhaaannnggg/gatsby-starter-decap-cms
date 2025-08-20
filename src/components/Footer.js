@@ -40,14 +40,16 @@ const Footer = () => {
             <span>京公网安备11010802046169号</span>
           </a>
         </div> */}
+        
+        {/* 第二版 */}
         <div
           className="logo-wrapper"
           style={{
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            paddingBottom: "1.2rem",   // 给备案行留出空间，按需调整
-            overflow: "visible"        // 保证不会被父级裁切
+            paddingBottom: "1.2rem", // 若仍被裁切可增大
+            overflow: "visible"
           }}
         >
           <div className="content has-text-centered" style={{ overflow: "visible" }}>
@@ -58,30 +60,50 @@ const Footer = () => {
             />
           </div>
 
-          {/* 备案行：小图左、文字右，整体居中，位于 logo 正下方 */}
-          <div style={{ display: "flex", justifyContent: "center", marginTop: "0.25rem", overflow: "visible" }}>
-            <a
-              href="https://beian.mps.gov.cn/#/query/websearch?code=11010802046169"
-              target="_blank"
-              rel="noreferrer"
+          {/* 居中外层（保证 inline-block 容器水平居中） */}
+          <div style={{ display: "flex", justifyContent: "center", width: "100%", marginTop: "0.2rem" }}>
+            {/* inline-block 容器：宽度由内部最宽的一行决定（通常是上面带图标的一行） */}
+            <div
+              className="beian-inline-wrapper"
               style={{
-                display: "inline-flex",
-                alignItems: "center",
-                textDecoration: "none",
-                color: "inherit",
-                fontSize: "0.95rem",
-                lineHeight: 1
+                display: "inline-block",
+                textAlign: "left",     // 内部左对齐 -> 两行的首字（“京”）会对齐
+                lineHeight: 1,
+                whiteSpace: "nowrap"   // 防止单行自动换行（按需删除）
               }}
             >
-              <img
-                src={beianLogo}
-                alt="备案"
-                style={{ width: "20px", height: "20px", marginRight: "8px", objectFit: "contain" }}
-              />
-              <span style={{ whiteSpace: "nowrap" }}>京公网安备11010802046169号</span>
-            </a>
+              {/* 上行：ICP + 图标（图标放在文本后面） */}
+              <div style={{ fontSize: "0.95rem", display: "block", alignItems: "center" }}>
+                <span>京ICP备2025136048号-1</span>
+                <img
+                  src={beianLogo}
+                  alt="备案"
+                  style={{
+                    width: "20px",
+                    height: "20px",
+                    marginLeft: "8px",
+                    verticalAlign: "middle",
+                    objectFit: "contain"
+                  }}
+                />
+              </div>
+
+              {/* 下行：只有文本（去掉图标），并且首字与上行首字对齐 */}
+              <div style={{ marginTop: "0.15rem", fontSize: "0.95rem" }}>
+                <a
+                  href="https://beian.mps.gov.cn/#/query/websearch?code=11010802046169"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  京公网安备11010802046169号
+                </a>
+              </div>
+            </div>
           </div>
         </div>
+
+
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
             <div style={{ maxWidth: "100vw" }} className="columns">
@@ -108,7 +130,7 @@ const Footer = () => {
                         Form Examples
                       </Link>
                     </li> */}
-                    {/* <li>
+                    <li>
                       <a
                         className="navbar-item"
                         href="/admin/"
@@ -117,7 +139,7 @@ const Footer = () => {
                       >
                         Admin
                       </a>
-                    </li> */}
+                    </li>
                   </ul>
                 </section>
               </div>
