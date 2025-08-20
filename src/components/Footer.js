@@ -2,6 +2,7 @@ import * as React from "react";
 import { Link } from "gatsby";
 
 import logo from "../img/logo.svg";
+import beianLogo from "../img/back.png"
 import facebook from "../img/social/facebook.svg";
 import instagram from "../img/social/instagram.svg";
 import twitter from "../img/social/twitter.svg";
@@ -11,12 +12,75 @@ const Footer = () => {
   
     return (
       <footer className="footer has-background-black has-text-white-ter">
-        <div className="content has-text-centered">
+        {/* <div className="content has-text-centered">
           <img
             src={logo}
             alt="Kaldi"
             style={{ width: "14em", height: "10em" }}
           />
+        </div> */}
+        {/* <div style={{ display: 'flex', justifyContent: 'center', marginTop: '0.25rem' }}>
+          <a
+            href="https://beian.mps.gov.cn/#/query/websearch?code=11010802046169"
+            target="_blank"
+            rel="noreferrer"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              textDecoration: 'none',
+              color: 'inherit',
+              fontSize: '0.9rem'
+            }}
+          >
+            <img
+              src={beianLogo}
+              alt="备案"
+              style={{ width: '20px', height: '20px', marginRight: '8px', objectFit: 'contain' }}
+            />
+            <span>京公网安备11010802046169号</span>
+          </a>
+        </div> */}
+        <div
+          className="logo-wrapper"
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            paddingBottom: "1.2rem",   // 给备案行留出空间，按需调整
+            overflow: "visible"        // 保证不会被父级裁切
+          }}
+        >
+          <div className="content has-text-centered" style={{ overflow: "visible" }}>
+            <img
+              src={logo}
+              alt="Kaldi"
+              style={{ width: "14em", height: "10em", objectFit: "contain" }}
+            />
+          </div>
+
+          {/* 备案行：小图左、文字右，整体居中，位于 logo 正下方 */}
+          <div style={{ display: "flex", justifyContent: "center", marginTop: "0.25rem", overflow: "visible" }}>
+            <a
+              href="https://beian.mps.gov.cn/#/query/websearch?code=11010802046169"
+              target="_blank"
+              rel="noreferrer"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                textDecoration: "none",
+                color: "inherit",
+                fontSize: "0.95rem",
+                lineHeight: 1
+              }}
+            >
+              <img
+                src={beianLogo}
+                alt="备案"
+                style={{ width: "20px", height: "20px", marginRight: "8px", objectFit: "contain" }}
+              />
+              <span style={{ whiteSpace: "nowrap" }}>京公网安备11010802046169号</span>
+            </a>
+          </div>
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
@@ -44,7 +108,7 @@ const Footer = () => {
                         Form Examples
                       </Link>
                     </li> */}
-                    <li>
+                    {/* <li>
                       <a
                         className="navbar-item"
                         href="/admin/"
@@ -53,7 +117,7 @@ const Footer = () => {
                       >
                         Admin
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </section>
               </div>
